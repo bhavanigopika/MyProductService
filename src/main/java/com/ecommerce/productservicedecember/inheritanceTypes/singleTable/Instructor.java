@@ -2,7 +2,6 @@ package com.ecommerce.productservicedecember.inheritanceTypes.singleTable;
 
 import jakarta.persistence.DiscriminatorValue;
 import jakarta.persistence.Entity;
-import jakarta.persistence.PrimaryKeyJoinColumn;
 
 @Entity(name = "st_instructors")
 @DiscriminatorValue(value = "3")

@@ -1,6 +1,5 @@
 package com.ecommerce.productservicedecember.inheritanceTypes.tablePerClass;
 
-import jakarta.persistence.DiscriminatorValue;
 import jakarta.persistence.Entity;
 
 @Entity(name = "tpc_instructors")
